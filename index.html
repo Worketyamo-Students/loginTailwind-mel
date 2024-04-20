@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+<body class="flex px-[4rem] overflow-hidden gap-4">
+   <div class="flex-1">
+    <img src="./img/blue.svg" alt="">
+   </div>
+   <div class="flex-1 flex flex-col">
+    <h1 class="text-[2.5rem] py-[1rem]">connexion a Blue Ocean</h1>
+    <form action="/" class="flex flex-col gap-4 h-[55%]">
+        <label for="email">Email</label>
+        <div class="flex items-center border-2 border-black rounded-[1rem] px-4 hover:border-blue-400">
+            <img src="./img/message.png" alt="" class="w-[2rem] h-[1.6rem]">
+        <input type="email" name="email" placeholder="abc@gmail.com" class=" p-4 " >
+        </div>
+        <label for="password">Password</label>
+        <div class="flex items-center border-2 border-black rounded-[1rem] px-4 hover:border-blue-400">
+            <img src="./img/key.png" alt="" class="w-[1.8rem] h-[1.4rem]">
+        <input type="password" name="password" placeholder="* * * * *" class="p-4 " >
+        </div>
+        <a href="/"><h1 class="text-blue-600 pl-[21rem] text-[1.06rem]"><u>Mot de Passe oublie ?</u></h1></a>
+        <button type="submit" class="p-[1rem] border-2 bg-blue-600  text-white w-[14rem] h-[4rem] rounded-[1.6rem] mx-auto">Connexion</button>
+     </form>
+     <span class="flex items-center justify-between pt-[2rem]">
+        <hr class="h-1 w-[13rem] bg-black"><p class="px-2">ou avec </p><hr  class="h-1 w-[13rem] bg-black">
+     </span>
+     <div class="flex items-center justify-around py-[3rem]">
+        <img src="./img/google.png" alt="">
+        <img src="./img/facebook.png" alt="">
+        <img src="./img/github.png" alt="">
+     </div>
+   </div>
+</body>
+</html>
